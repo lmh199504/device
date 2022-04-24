@@ -5,7 +5,7 @@ import store from './store'
 import '@/vant'
 import '@/assets/styles/global.less'
 Vue.config.productionTip = false
-
+// import './permission'
 new Vue({
   router,
   store,

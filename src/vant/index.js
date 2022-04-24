@@ -33,7 +33,9 @@ import {
 	Radio,
 	RadioGroup,
 	NoticeBar,
-	Search
+	Search,
+	Tabbar,
+	TabbarItem
 } from 'vant'
 
 Vue.use(Icon)
@@ -69,3 +71,5 @@ Vue.use(Radio)
 Vue.use(RadioGroup)
 Vue.use(NoticeBar)
 Vue.use(Search)
+Vue.use(Tabbar)
+Vue.use(TabbarItem)

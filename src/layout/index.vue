@@ -1,18 +1,15 @@
 <template>
 	<div class="layout">
 		<router-view />
-		<div class="tabbar">
-			
-		</div>
+		<Tabbar />
 	</div>
 </template>
 
 <script>
+	import Tabbar from './tabBar.vue'
 	export default {
-		data() {
-			return {
-
-			}
+		components: {
+			Tabbar
 		}
 	}
 </script>
